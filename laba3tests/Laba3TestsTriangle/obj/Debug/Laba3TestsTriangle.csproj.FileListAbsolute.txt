@@ -1,0 +1,7 @@
+C:\Users\KaRy\source\repos\Laba3TestsTriangle\bin\Debug\Laba3TestsTriangle.exe.config
+C:\Users\KaRy\source\repos\Laba3TestsTriangle\bin\Debug\Laba3TestsTriangle.exe
+C:\Users\KaRy\source\repos\Laba3TestsTriangle\bin\Debug\Laba3TestsTriangle.pdb
+C:\Users\KaRy\source\repos\Laba3TestsTriangle\obj\Debug\Laba3TestsTriangle.csprojAssemblyReference.cache
+C:\Users\KaRy\source\repos\Laba3TestsTriangle\obj\Debug\Laba3TestsTriangle.csproj.CoreCompileInputs.cache
+C:\Users\KaRy\source\repos\Laba3TestsTriangle\obj\Debug\Laba3TestsTriangle.exe
+C:\Users\KaRy\source\repos\Laba3TestsTriangle\obj\Debug\Laba3TestsTriangle.pdb
