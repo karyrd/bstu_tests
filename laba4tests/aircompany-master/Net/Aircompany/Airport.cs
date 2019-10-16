@@ -78,7 +78,6 @@ namespace Aircompany
             return new Airport(Planes.OrderBy(w => w.MAXLoadCapacity()));
         }
 
-
         public IEnumerable<Plane> GetPlanes()
         {
             return Planes;

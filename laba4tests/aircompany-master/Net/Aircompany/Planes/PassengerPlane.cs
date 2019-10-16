@@ -20,26 +20,16 @@ namespace Aircompany.Planes
                    _passengersCapacity == plane._passengersCapacity;
         }
 
-        public override int GetHashCode()
-        {
-            var hashCode = 751774561;
-            hashCode = hashCode * -1521134295 + base.GetHashCode();
-            hashCode = hashCode * -1521134295 + _passengersCapacity.GetHashCode();
-            return hashCode;
-        }
-
         public int PassengersCapacityIs()
         {
             return _passengersCapacity;
         }
-
        
         public override string ToString()
         {
             return base.ToString().Replace("}",
                     ", passengersCapacity=" + _passengersCapacity +
                     '}');
-        }       
-        
+        }        
     }
 }

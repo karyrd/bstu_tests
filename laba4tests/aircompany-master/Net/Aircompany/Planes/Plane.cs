@@ -49,23 +49,12 @@ namespace Aircompany.Planes
 
         public override bool Equals(object obj)
         {
-            var plane = obj as Plane;
+            Plane plane = obj as Plane;
             return plane != null &&
                    _model == plane._model &&
                    _maxSpeed == plane._maxSpeed &&
                    _maxFlightDistance == plane._maxFlightDistance &&
                    _maxLoadCapacity == plane._maxLoadCapacity;
         }
-
-        public override int GetHashCode()
-        {
-            var hashCode = -1043886837;
-            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(_model);
-            hashCode = hashCode * -1521134295 + _maxSpeed.GetHashCode();
-            hashCode = hashCode * -1521134295 + _maxFlightDistance.GetHashCode();
-            hashCode = hashCode * -1521134295 + _maxLoadCapacity.GetHashCode();
-            return hashCode;
-        }        
-
     }
 }

@@ -20,19 +20,10 @@ namespace Aircompany.Planes
                    _type == plane._type;
         }
 
-        public override int GetHashCode()
-        {
-            var hashCode = 1701194404;
-            hashCode = hashCode * -1521134295 + base.GetHashCode();
-            hashCode = hashCode * -1521134295 + _type.GetHashCode();
-            return hashCode;
-        }
-
         public MilitaryType PlaneTypeIs()
         {
             return _type;
         }
-
 
         public override string ToString()
         {
