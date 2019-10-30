@@ -1,0 +1,13 @@
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\bin\Debug\AircompanyTests.dll
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\bin\Debug\AircompanyTests.pdb
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\bin\Debug\Aircompany.exe
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\bin\Debug\nunit.framework.dll
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\bin\Debug\Aircompany.pdb
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\bin\Debug\Aircompany.exe.config
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\bin\Debug\nunit.framework.pdb
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\bin\Debug\nunit.framework.xml
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\obj\Debug\AircompanyTests.csprojAssemblyReference.cache
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\obj\Debug\AircompanyTests.csproj.CoreCompileInputs.cache
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\obj\Debug\AircompanyTests.csproj.CopyComplete
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\obj\Debug\AircompanyTests.dll
+D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\AircompanyTests\obj\Debug\AircompanyTests.pdb
