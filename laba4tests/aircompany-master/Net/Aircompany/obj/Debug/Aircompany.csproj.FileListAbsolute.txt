@@ -1,7 +1,0 @@
-D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\Aircompany\bin\Debug\Aircompany.exe.config
-D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\Aircompany\bin\Debug\Aircompany.exe
-D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\Aircompany\bin\Debug\Aircompany.pdb
-D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\Aircompany\obj\Debug\Aircompany.csprojAssemblyReference.cache
-D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\Aircompany\obj\Debug\Aircompany.csproj.CoreCompileInputs.cache
-D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\Aircompany\obj\Debug\Aircompany.exe
-D:\4kyrs\Tests\Labs\laba4tests\aircompany-master\Net\Aircompany\obj\Debug\Aircompany.pdb
