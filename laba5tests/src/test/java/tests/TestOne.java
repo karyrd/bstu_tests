@@ -22,7 +22,7 @@ public class TestOne {
         WebElement searchButton = waitForElementLocatedBy(driver, By.xpath("//*[@id='menu-wrapper']/div/div[1]/div[2]"));
         searchBar.sendKeys("джинсы mango");
         searchButton.click();
-        List<WebElement> searchResultElements = waitForElementsLocatedBy(driver, By.className("products-list-item"));
+        List<WebElement> searchResultElements = waitForElementsLocatedBy(driver, By.className("products-catalog__list"));
         int amountOfElementsWithAppropriateTag = 0;
         for(WebElement searchResultElement : searchResultElements) {
             if(doSearchResultItemsHaveAppropriateTag(searchResultElement)) {

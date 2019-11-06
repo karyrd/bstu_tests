@@ -20,7 +20,7 @@ public class TestFive {
 
         WebElement onSaleLink = waitForElementLocatedBy(driver, By.xpath("//*[@id='menu-wrapper']/div/div[2]/a[10]"));
         onSaleLink.click();
-        List<WebElement> onSaleElements = waitForElementsLocatedBy(driver, By.className("products-list-item"));
+        List<WebElement> onSaleElements = waitForElementsLocatedBy(driver, By.className("products-catalog__list"));
         int actualAmountOfElementsOnSale = 0;
         for(WebElement searchResultElement : onSaleElements) {
             if(isElementOnSale(searchResultElement)) {
