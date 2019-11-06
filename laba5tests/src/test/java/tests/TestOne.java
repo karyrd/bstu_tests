@@ -1,14 +1,20 @@
+package tests;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import java.util.List;
 
 public class TestOne {
 
-    public static void main(String[] args) throws InterruptedException {
+    @Test
+    public void SearchBarCheck() {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.lamoda.by");
 
@@ -17,15 +23,14 @@ public class TestOne {
         searchBar.sendKeys("джинсы mango");
         searchButton.click();
         List<WebElement> searchResultElements = waitForElementsLocatedBy(driver, By.className("products-list-item"));
-        System.out.println("amount of products in search result: " + searchResultElements.size());
         int amountOfElementsWithAppropriateTag = 0;
         for(WebElement searchResultElement : searchResultElements) {
             if(doSearchResultItemsHaveAppropriateTag(searchResultElement)) {
                 amountOfElementsWithAppropriateTag++;
             }
         }
-        System.out.println("amount of products that satisfy search conditions: " + amountOfElementsWithAppropriateTag);
 
+        Assert.assertTrue(searchResultElements.size() == amountOfElementsWithAppropriateTag, "Search is not working correctly");
         driver.quit();
     }
 
