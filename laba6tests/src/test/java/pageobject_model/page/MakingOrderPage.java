@@ -22,7 +22,7 @@ public class MakingOrderPage  {
 
     public CartPage addToCart() throws InterruptedException {
         WebElement sizeDropdown = waitForElementsLocatedBy(driver, By.className("product__sizes-select-container")).get(0);
-        Thread.sleep(100);
+//        Thread.sleep(1000);
         sizeDropdown.click();
         WebElement sizeOptionsList = waitForElementsLocatedBy(driver, By.className("ii-select__columns")).get(1).
                 findElements(By.className("ii-select__column_native")).get(0);

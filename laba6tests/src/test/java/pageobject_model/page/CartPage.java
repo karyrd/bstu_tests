@@ -31,7 +31,7 @@ public class CartPage {
         String newClothElementInCartName = newClothElementInCart.findElements(By.className("cpi__name")).get(0).
                 findElement(By.tagName("b")).getText(); // {brand}
 
-        return (initialPrice == newClothElementInCartPrice && initialName.contains(newClothElementInCartName));
+        return (initialPrice.equals(newClothElementInCartPrice) && initialName.contains(newClothElementInCartName));
     }
 
     private static WebElement waitForElementLocatedBy(WebDriver driver, By by) {

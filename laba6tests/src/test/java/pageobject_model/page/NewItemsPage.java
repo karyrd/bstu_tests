@@ -31,7 +31,7 @@ public class NewItemsPage {
         return new MakingOrderPage(driver, newClothElementPrice, newClothElementName);
     }
 
-    public boolean filterPricesCheck(int left_value, int right_value) {
+    public boolean filterPricesCheck(int left_value, int right_value) throws InterruptedException {
         boolean result = true;
         WebElement dropdownPrice = waitForElementLocatedBy(driver, By.className("multifilter_price"));
         dropdownPrice.click();
@@ -39,6 +39,7 @@ public class NewItemsPage {
         dropdownPrice.findElement(By.className("range__value_left")).sendKeys(valueOf(left_value));
         dropdownPrice.findElement(By.className("range__value_right")).sendKeys(valueOf(right_value));
         dropdownPrice.findElement(By.className("multifilter-actions__apply")).click();
+        Thread.sleep(3000);
 
         try {
             List<WebElement> filterResultItems = waitForElementsLocatedBy(driver, By.className("price__actual"));
@@ -69,13 +70,13 @@ public class NewItemsPage {
     }
 
     private static List<WebElement> waitForElementsLocatedBy(WebDriver driver, By by) {
-        return new WebDriverWait(driver, 10)
+        return new WebDriverWait(driver, 15)
                 .until(ExpectedConditions.
                         presenceOfAllElementsLocatedBy(by));
     }
 
     private static WebElement waitForElementLocatedBy(WebDriver driver, By by) {
-        return new WebDriverWait(driver, 10)
+        return new WebDriverWait(driver, 15)
                 .until(ExpectedConditions
                         .presenceOfElementLocated(by));
     }
